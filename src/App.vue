@@ -1,14 +1,19 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+import Navbar from './components/Navbar.vue'
 </script>
 
 <template>
-  <header>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-   </header>
+  <div class="big-appplication is-family-primary	">
+    <Navbar></Navbar>
+  <section class="hero is-fullheight-with-navbar">
+    <div class="hero-body">
+      <RouterView />
+    </div>
+  </section>
+  </div>
+ 
 
-  <RouterView />
 </template>
 
 <style scoped>

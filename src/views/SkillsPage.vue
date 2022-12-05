@@ -3,6 +3,6 @@
 </script>
 
 <template>
-HOME
+SKILLS
 
 </template>
