@@ -6,13 +6,24 @@
                 <div class="navbar-start">
                     <RouterLink to="/" class="navbar-item is-size-5 has-text-weight-semibold	">Archit Jain</RouterLink>
                 </div>
-                <div class="navbar-end">
+                <div class="navbar-end external-links">
                     <RouterLink to="/" class="navbar-item">Home</RouterLink>
                     <RouterLink to="/skills" class="navbar-item">Skills</RouterLink>
                     <div class="navbar-item">
                         <div class="buttons">
-                            <a class="button is-dark" href="https://github.com/architjee"  target="_blank">Github</a>
-                            <a class="button is-link" :href="resume" download>Download</a>
+                            <a class="button is-dark" href="https://github.com/architjee"  target="_blank">
+                                <span class="icon is-small"><i class="bi bi-github"></i></span>
+                                <span>
+                                    Github
+                                </span> 
+                            </a>
+                            <a class="button is-link" :href="resume" download>
+                                <span class="icon is-small"><i class="bi bi-cloud-arrow-down-fill"></i></span>
+                                <span>
+                                    Resume
+                                </span> 
+
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -24,7 +35,8 @@
 </template>
 
 <script>
-import resumeURL from '../assets/Archit_Jain_Resume.pdf'
+import resumeURL from '../assets/Archit_Jain_Resume.pdf';
+
 export default {
   data() {
     return {
