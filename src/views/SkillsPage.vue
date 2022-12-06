@@ -11,7 +11,7 @@ export default {
   
        <div class="container">
            <div class="columns">
-               <div class="column is-half">
+               <div class="column is-half is-offset-one-quarter">
                    <div class="card">
                        <header class="card-header">
                            <p class="card-header-title">
@@ -21,20 +21,16 @@ export default {
                        <div class="card-content">
                            <div class="content">
                             <p>
-                                <my-progress-bar label="Python" size="80" color="is-info"></my-progress-bar>
-
+                                <my-progress-bar label="Python" size="90" color="is-info"></my-progress-bar>
                             </p>
                           <p>
-                              <my-progress-bar label="JavaScript" size="80" color="is-info"></my-progress-bar>
-
+                              <my-progress-bar label="JavaScript" size="85" color="is-success"></my-progress-bar>
                           </p>
                           <p>
-                              <my-progress-bar label="Java" size="80" color="is-info"></my-progress-bar>
-
+                              <my-progress-bar label="Java" size="80" color="is-primary"></my-progress-bar>
                           </p>
                           <p>
-                              <my-progress-bar label="C/C++" size="80" color="is-info"></my-progress-bar>
-
+                              <my-progress-bar label="C/C++" size="80" color="is-danger"></my-progress-bar>
                           </p>
                            </div>
                        </div>
