@@ -1,17 +1,32 @@
 <script >
 import Abilities from '../components/Abilities.vue';
+import Ability from '../components/Ability.vue';
 export default {
   components: {
-    Abilities
+    Abilities,
+    Ability
   },
   data() {
     return {
-      abilities_const: ['ML based classification','Web Development','Wireframing','and sometimes Game dev. too']
+      abilities_const: ['a Data Science Enthusiast,', 'a Software Developer,', 'working with Web Technologies,', 'also sometimes doing Game development too.']
     }
+  },
+  methods:{
+    
   }
 }
 </script>
 
 <template>
-I can do <Abilities :abilities="abilities_const"></Abilities>
+  <div>
+  
+  <p class="title">
+   <span class="has-text-grey">
+
+     I am 
+    </span>
+    <Abilities :abilities="abilities_const" class="has-text-dark	"></Abilities>
+  </p>
+ 
+  </div>
 </template>
