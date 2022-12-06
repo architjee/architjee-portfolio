@@ -5,16 +5,16 @@
             <div class="navbar-brand">
                 <!-- navbar items, navbar burger... -->
                 <div class="navbar-item">
-                    <RouterLink to="/" class="navbar-item is-size-5 has-text-weight-semibold">Archit Jain</RouterLink>
+                    <RouterLink to="/" class="navbar-item is-size-5 has-text-weight-bold">Archit Jain</RouterLink>
                 </div>
                 <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
-                    data-target="navbarBasicExample">
+                    data-target="navbarBasicExample" @click="toggle_burger" :class="{'is-active': burgermenustatus}">
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
                 </a>
             </div>
-            <div id="navMenu" class="navbar-menu">
+            <div id="navMenu" class="navbar-menu" :class="{'is-active': burgermenustatus}">
                
 
                 <div class="navbar-end external-links">
@@ -51,7 +51,13 @@ import resumeURL from '../assets/Archit_Jain_Resume.pdf';
 export default {
     data() {
         return {
-            resume: resumeURL
+            resume: resumeURL,
+            burgermenustatus : false,
+        }
+    },
+    methods:{
+        toggle_burger(){
+            this.burgermenustatus = !this.burgermenustatus;
         }
     }
 }
