@@ -1,5 +1,6 @@
 
 <template>
+    
     <nav class="navbar">
         <div class="container">
             <div class="navbar-brand">

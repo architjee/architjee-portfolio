@@ -17,3 +17,5 @@
 > - We have to think about color theme and branding.
 > - Add my designing skills aswell.
 > - Abilities go in this particular way: Machine Learning, Deep Learning, Wireframing, Web Development, Game Dev.
+
+>> Updated resume upload karna hai.

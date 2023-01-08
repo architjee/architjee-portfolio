@@ -1,32 +1,36 @@
 <script >
-import Abilities from '../components/Abilities.vue';
-import Ability from '../components/Ability.vue';
+import Navbar from '../components/Navbar.vue';
+
 export default {
   components: {
-    Abilities,
-    Ability
+    Navbar
   },
   data() {
     return {
-      abilities_const: ['a Data Science Enthusiast,', 'a Software Developer,', 'working with Web Technologies,', 'also sometimes doing Game development too.']
     }
   },
-  methods:{
-    
+  methods: {
+
   }
 }
 </script>
 
 <template>
-  <div>
-  
-  <p class="title">
-   <span class="has-text-grey">
 
-     I am 
-    </span>
-    <Abilities :abilities="abilities_const" class="has-text-dark	"></Abilities>
-  </p>
- 
-  </div>
+  <section class="hero  is-fullheight">
+    <div class="hero-head">
+      <Navbar></Navbar>
+    </div>
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <p class="title">
+          Title
+        </p>
+        <p class="subtitle">
+          Subtitle
+        </p>
+      </div>
+    </div>
+  </section>
+
 </template>
