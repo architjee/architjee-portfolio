@@ -21,6 +21,8 @@
                 <div class="navbar-end external-links">
                     <RouterLink to="/" class="navbar-item">Home</RouterLink>
                     <RouterLink to="/skills" class="navbar-item">Skills</RouterLink>
+                    <RouterLink to="/projects" class="navbar-item">Projects</RouterLink>
+                    
                     <div class="navbar-item">
                         <div class="buttons">
                             <a class="button is-dark" href="https://github.com/architjee" target="_blank">
