@@ -1,12 +1,11 @@
 <script >
-import ProgressBar from '../components/ProgressBar.vue';
 import Navbar from '../components/Navbar.vue';
-import Abilities from '../components/Abilities.vue';
+import Footer from '../components/Footer.vue';
 export default {
     components: {
-        'my-progress-bar': ProgressBar,
+        
         Navbar,
-        Abilities
+        Footer
     },
     data() {
         return {
@@ -24,48 +23,58 @@ export default {
         <div class="hero-head">
             <Navbar></Navbar>
         </div>
-
-        <!-- Hero content: will be in the middle -->
         <div class="hero-body">
-            <div class="container has-text-centered">
-                <p class="title">
-                THIS IS MY CONTACT PAGE
-                </p>
+            <div class="container columns is-full is-vcentered">
+                <div class="column">
+                    <img src="../assets/contactmephoto.png" alt="Archit Jain photograph">
+                </div>
+                <div class="column contact-details-column has-text-centered">
+                    <p class="subtitle">
+
+                        <span class="icon-text">
+                            <span class="icon">
+                                <img src="../assets/telephone.svg">
+                            </span>
+                            <span> +91 8085588896</span>
+                        </span>
+
+                    </p>
+                    <p class="subtitle">
+
+
+                        <span class="icon-text">
+                            <span class="icon">
+                                <img src="../assets/contact_mail_FILL0_wght400_GRAD0_opsz48 (1).svg">
+                            </span>
+                            <span> architjee@gmail.com</span>
+                        </span>
+                    </p>
+                    <p class="subtitle">
+                        <a href="https://github.com/architjee">
+                            <span class="icon-text">
+                                <span class="icon">
+                                    <img src="../assets/github (2).svg">
+                                </span>
+                                <span> https://github.com/architjee</span>
+                            </span>
+
+                        </a>
+                    </p>
+
+
+
+                </div>
             </div>
+
         </div>
     </section>
-
-    <div class="container">
-        <div class="columns">
-            <div class="column is-half is-offset-one-quarter">
-                <div class="card">
-                    <header class="card-header">
-                        <p class="card-header-title">
-                            Programming Languages
-                        </p>
-                    </header>
-                    <div class="card-content">
-                        <div class="content">
-                            <p>
-                                <my-progress-bar label="Python" size="90" color="is-info"></my-progress-bar>
-                            </p>
-                            <p>
-                                <my-progress-bar label="JavaScript" size="85" color="is-success"></my-progress-bar>
-                            </p>
-                            <p>
-                                <my-progress-bar label="Java" size="80" color="is-primary"></my-progress-bar>
-                            </p>
-                            <p>
-                                <my-progress-bar label="C/C++" size="80" color="is-danger"></my-progress-bar>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-
+    <Footer></Footer>
 
 </template>
+<style scoped>
+img {
+    width: 50vh;
+    aspect-ratio: initial;
+}
+
+</style>

@@ -1,6 +1,6 @@
 <template>
     <div class="single-progress">
-        <div class="is-size-5">
+        <div class="is-size-5 has-text-left">
             {{ label }}
         </div>
         <progress class="progress is-small" :value="size" max="100" :class="color">{{size}}</progress>

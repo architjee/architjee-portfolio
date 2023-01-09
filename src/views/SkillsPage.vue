@@ -4,12 +4,19 @@ import Navbar from '../components/Navbar.vue';
 import Abilities from '../components/Abilities.vue';
 import ProgressCard from '../components/ProgressCard.vue';
 import SkillsCard from '../components/SkillsCard.vue';
+import CertificationsCard from '../components/CertificationsCard.vue';
+import AchievementsCard from '../components/Achievements Card.vue'
+import Footer from '../components/Footer.vue';
 export default {
     components: {
         ProgressCard,
         Navbar,
         Abilities,
-        'skillscard': SkillsCard
+        CertificationsCard,
+        AchievementsCard,
+        'skillscard': SkillsCard,
+        Footer
+
     },
     data() {
         return {
@@ -43,12 +50,14 @@ export default {
             <div class="container has-text-centered">
                <ProgressCard></ProgressCard>
                 <skillscard></skillscard>
+                <CertificationsCard></CertificationsCard>
+                <AchievementsCard></AchievementsCard>
             </div>
         </div>
     </section>
 
    
-
+    <Footer></Footer>
 
 
 </template>
