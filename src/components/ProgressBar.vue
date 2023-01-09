@@ -3,7 +3,7 @@
         <div class="is-size-5">
             {{ label }}
         </div>
-        <progress class="progress" :value="size" max="100" :class="color">{{size}}</progress>
+        <progress class="progress is-small" :value="size" max="100" :class="color">{{size}}</progress>
     </div>
 </template>
   
@@ -23,3 +23,6 @@ export default {
     }
 }
 </script>
+<style scoped>
+
+</style>

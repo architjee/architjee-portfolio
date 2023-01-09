@@ -1,9 +1,10 @@
 <script >
 import Navbar from '../components/Navbar.vue';
-
+import Footer from '../components/Footer.vue';
 export default {
   components: {
-    Navbar
+    Navbar,
+    Footer
   },
   data() {
     return {
@@ -16,7 +17,6 @@ export default {
 </script>
 
 <template>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 
   <section class="hero home is-fullheight">
     <div class="hero-head">
@@ -45,7 +45,7 @@ export default {
                   <p class="subtitle slightly-light-purple-color has-text-centered">
                     <u>Checkout the projects I've worked upon.</u>
                   </p>
-  
+
                 </div>
 
               </RouterLink>
@@ -73,7 +73,7 @@ export default {
       </div>
     </div>
   </section>
-
+<Footer></Footer>
 
 </template>
 

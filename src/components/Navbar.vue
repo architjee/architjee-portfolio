@@ -22,6 +22,7 @@
                     <RouterLink to="/" class="navbar-item">Home</RouterLink>
                     <RouterLink to="/skills" class="navbar-item">Skills</RouterLink>
                     <RouterLink to="/projects" class="navbar-item">Projects</RouterLink>
+                    <RouterLink to="/contactme" class="navbar-item">Contact Me</RouterLink>
                     
                     <div class="navbar-item">
                         <div class="buttons">
