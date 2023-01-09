@@ -33,24 +33,41 @@
             </div>
         </div>
     </div>
+    <a href="../assets/BulmaIconBlack1.svg"></a>
 </template>
 
 <script>
 import Badge from './Badge.vue';
-import bulma from '../assets/BulmaIconBlack1.svg'
+import bulmaurl from '../assets/BulmaIconBlack1.svg';
+import KerasURL from '../assets/Keras_logo1.svg';
+import SupabaseURL from '../assets/Supabasecustomicon.svg'
+import TensorflowURL from '../assets/Tensorflow_logo1.svg'
+import BootstrapURL from '../assets/bootstrap-fill1.svg'
+import GitURL from '../assets/git-branch-outline1.svg'
+import ElectronURL from '../assets/logo-electron1.svg'
+import FigmaURL from '../assets/logo-figma1.svg'
+import FirebaseURL from '../assets/logo-firebase1.svg'
+import MySQLURL from '../assets/mysql-icon1.svg'
+import StreamlitURL from '../assets/streamlit-mark-dark1.svg'
+import VueURL from '../assets/vuejs-icon1.svg'
+
+
+
+
+
 var logos = {
-    'Bulma': '../src/assets/BulmaIconBlack1.svg',
-    'Keras': '../src/assets/Keras_logo1.svg',
-    'Supabase': '../src/assets/Supabasecustomicon.svg',
-    'Tensorflow': '../src/assets/Tensorflow_logo1.svg',
-    'Bootstrap': '../src/assets/bootstrap-fill1.svg',
-    'Git': '../src/assets/git-branch-outline1.svg',
-    'Electron': '../src/assets/logo-electron1.svg',
-    'Figma': '../src/assets/logo-figma1.svg',
-    'Firebase': '../src/assets/logo-firebase1.svg',
-    'MySQL': '../src/assets/mysql-icon1.svg',
-    'Streamlit': '../src/assets/streamlit-mark-dark1.svg',
-    'Vue.js': '../src/assets/vuejs-icon1.svg',
+    'Bulma': bulmaurl,
+    'Keras': KerasURL,
+    'Supabase': SupabaseURL,
+    'Tensorflow': TensorflowURL,
+    'Bootstrap':BootstrapURL,
+    'Git': GitURL,
+    'Electron': ElectronURL,
+    'Figma': FigmaURL,
+    'Firebase': FirebaseURL,
+    'MySQL': MySQLURL,
+    'Streamlit':StreamlitURL,
+    'Vue.js': VueURL,
 }
 export default {
     components: {

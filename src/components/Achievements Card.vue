@@ -47,7 +47,7 @@
                                     </div>
                                 </div>
                                 <div class="column is-4">
-                                    <img src="../assets/Trophyicon.svg" alt="" srcset="">
+                                    <img src="../assets/Trophyicon.svg">
                                 </div>
                             </div>
                         </div>

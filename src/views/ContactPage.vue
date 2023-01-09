@@ -1,4 +1,13 @@
 <script >
+import TelephoneURL from '../assets/telephone.svg';
+import EmailURL from '../assets/contact_mail.svg';
+import GithubURL from '../assets/github.svg';
+var iconsURL = {
+    TelephoneURL,
+    EmailURL,
+    GithubURL
+}
+
 import Navbar from '../components/Navbar.vue';
 import Footer from '../components/Footer.vue';
 export default {
@@ -9,6 +18,7 @@ export default {
     },
     data() {
         return {
+            iconsURL: iconsURL,
             abilities_const: ['a Data Science Enthusiast,', 'a Software Developer,', 'working with Web Technologies,', 'also sometimes doing Game development too.']
         }
     },
@@ -33,7 +43,7 @@ export default {
 
                         <span class="icon-text">
                             <span class="icon">
-                                <img src="../assets/telephone.svg">
+                                <img :src="iconsURL.TelephoneURL">
                             </span>
                             <span> +91 8085588896</span>
                         </span>
@@ -44,7 +54,7 @@ export default {
 
                         <span class="icon-text">
                             <span class="icon">
-                                <img src="../assets/contact_mail.svg">
+                                <img :src="iconsURL.EmailURL">
                             </span>
                             <span> architjee@gmail.com</span>
                         </span>
@@ -53,7 +63,7 @@ export default {
                         <a href="https://github.com/architjee">
                             <span class="icon-text">
                                 <span class="icon">
-                                    <img src="../assets/github.svg">
+                                    <img :src="iconsURL.GithubURL">
                                 </span>
                                 <span> https://github.com/architjee</span>
                             </span>
