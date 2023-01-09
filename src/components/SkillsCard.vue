@@ -37,6 +37,7 @@
 
 <script>
 import Badge from './Badge.vue';
+import bulma from '../assets/BulmaIconBlack1.svg'
 var logos = {
     'Bulma': '../src/assets/BulmaIconBlack1.svg',
     'Keras': '../src/assets/Keras_logo1.svg',
