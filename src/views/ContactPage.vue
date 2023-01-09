@@ -44,7 +44,7 @@ export default {
 
                         <span class="icon-text">
                             <span class="icon">
-                                <img src="../assets/contact_mail_FILL0_wght400_GRAD0_opsz48 (1).svg">
+                                <img src="../assets/contact_mail.svg">
                             </span>
                             <span> architjee@gmail.com</span>
                         </span>
@@ -53,7 +53,7 @@ export default {
                         <a href="https://github.com/architjee">
                             <span class="icon-text">
                                 <span class="icon">
-                                    <img src="../assets/github (2).svg">
+                                    <img src="../assets/github.svg">
                                 </span>
                                 <span> https://github.com/architjee</span>
                             </span>

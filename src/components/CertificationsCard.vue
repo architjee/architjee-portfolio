@@ -15,21 +15,21 @@
                         <div class="content columns is-vcentered">
                             <div class="column">
                                 <div class="container-of-image">
-                                    <img src="../assets/Deep Learning Certification.png" alt="Snow" style="width:100%;">
+                                    <img src="../assets/DeepLearningCertification.png" alt="Snow" style="width:100%;">
 
                                     <div class="centered has-text-dark">Neural Networks and Deep Learning</div>
                                 </div>
                             </div>
                             <div class="column">
                                 <div class="container-of-image">
-                                    <img src="../assets/OOPS Certification.png" alt="Snow" style="width:100%;">
+                                    <img src="../assets/OOPSCertification.png" alt="Snow" style="width:100%;">
 
                                     <div class="centered has-text-dark">Object-Oriented Data Structures in C++</div>
                                 </div>
                             </div>
                             <div class="column">
                                 <div class="container-of-image">
-                                    <img src="../assets/Udemy Advanced JS Certificate.png" alt="Snow"
+                                    <img src="../assets/UdemyAdvancedJSCertificate.png" alt="Snow"
                                         style="width:100%;">
 
                                     <div class="centered has-text-dark">Modern JavaScript (Udemy)</div>

@@ -38,18 +38,18 @@
 <script>
 import Badge from './Badge.vue';
 var logos = {
-    'Bulma': '../src/assets/Bulma Icon Black 1.svg',
-    'Keras': '../src/assets/Keras_logo 1.svg',
-    'Supabase': '../src/assets/Supabase custom icon.svg',
-    'Tensorflow': '../src/assets/Tensorflow_logo 1.svg',
-    'Bootstrap': '../src/assets/bootstrap-fill 1.svg',
-    'Git': '../src/assets/git-branch-outline 1.svg',
-    'Electron': '../src/assets/logo-electron 1.svg',
-    'Figma': '../src/assets/logo-figma 1.svg',
-    'Firebase': '../src/assets/logo-firebase 1.svg',
-    'MySQL': '../src/assets/mysql-icon 1.svg',
-    'Streamlit': '../src/assets/streamlit-mark-dark 1.svg',
-    'Vue.js': '../src/assets/vuejs-icon 1.svg',
+    'Bulma': '../src/assets/BulmaIconBlack1.svg',
+    'Keras': '../src/assets/Keras_logo1.svg',
+    'Supabase': '../src/assets/Supabasecustomicon.svg',
+    'Tensorflow': '../src/assets/Tensorflow_logo1.svg',
+    'Bootstrap': '../src/assets/bootstrap-fill1.svg',
+    'Git': '../src/assets/git-branch-outline1.svg',
+    'Electron': '../src/assets/logo-electron1.svg',
+    'Figma': '../src/assets/logo-figma1.svg',
+    'Firebase': '../src/assets/logo-firebase1.svg',
+    'MySQL': '../src/assets/mysql-icon1.svg',
+    'Streamlit': '../src/assets/streamlit-mark-dark1.svg',
+    'Vue.js': '../src/assets/vuejs-icon1.svg',
 }
 export default {
     components: {
