@@ -78,6 +78,11 @@ export default {
 </template>
 
 <style scoped>
+.skill-box-wrapper {
+  display: flex;
+  flex-direction: column;
+  
+}
 .dark-purple-color {
   color: #0E5E6F;
 }
@@ -92,60 +97,56 @@ export default {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 600;
-  font-size: 5rem;
+  font-size: 2rem;
   padding-left: 3rem;
 
 }
 
 .home {
-  height: 100vh;
+  /* height: 100vh; */
   background-color: #FFF4DF;
 }
 
-.skills-box {
-  position: relative;
-  top: -200px;
+.skills-box{
   background-color: #FDF5E8;
   aspect-ratio: 1;
   width: 300px;
-  font-size: 4rem;
+  margin-bottom: 10vh;
+  margin-left: auto;
+  margin-right: auto;
 
 }
-
-.skills-box-second {
-  position: relative;
-  z-index: 1;
-  top: 200px;
-  left: 170px;
-  background-color: #FFF2DB;
+.skills-box-second{
+  background-color: #f4c87b;
   aspect-ratio: 1;
   width: 300px;
   font-size: 4rem;
+  margin-bottom: 10vh;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.skill-box-wrapper {
-  width: 450px;
-}
 
 
 @media screen and (min-width:1024px) {
+ 
   #title-text {
     /* Let’s Build Something Awesome */
-
+    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
     font-size: 6.5rem;
     color: #0E5E6F;
     padding-left: 3rem;
-
+    
   }
-
+  
   .home {
     height: 100%;
     background: linear-gradient(90deg, #FFF4DF 50%, #ffffff 50%);
   }
-
+  
   .left-line {
     position: absolute;
     z-index: 3;
@@ -155,5 +156,25 @@ export default {
     height: 90%;
     border: 4px solid #0E5E6F;
   }
+  
+  .skills-box {
+    position: relative;
+    top: -200px;
+    font-size: 4rem;
+    margin-bottom: 0;
+  
+  }
+  .skills-box-second {
+    position: relative;
+    z-index: 1;
+    top: 200px;
+    left: 170px;
+    margin-bottom: 0;
+  }
+  
+  .skill-box-wrapper {
+  width: 450px;
+  /* display: initial; */
+}
 }
 </style>
