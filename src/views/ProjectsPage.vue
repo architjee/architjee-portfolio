@@ -53,7 +53,7 @@ export default {
 
                     <ProjectCard title="Pneumonia Detection (CXR)" link="https://kutt.it/pneumonia"
                         :imagelink="Thumbnails.ChestURL" dateslot="November 2020"
-                        :content="['Chest X-ray’s kaggle dataset (5k+ images).', 'Binary Classification of CXRs using CNN and VGG16 with validation accuracy of 93', 'Functional API of Tensorflow']"
+                        :content="['Chest X-ray’s kaggle dataset (5k+ images).', 'Binary Classification of CXRs using CNN and VGG16 with validation accuracy of 93%', 'Functional API of Tensorflow']"
                         :tags="['Keras', 'Tensorflow', 'Streamlit']">
                     </ProjectCard>
 

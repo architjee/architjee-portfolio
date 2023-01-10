@@ -29,7 +29,7 @@ export default {
 
 <template>
 
-    <section class="hero is-fullheight skills-page">
+    <section class="hero is-large skills-page">
         <!-- Hero head: will stick at the top -->
         <div class="hero-head">
             <Navbar></Navbar>

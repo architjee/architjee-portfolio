@@ -9,7 +9,7 @@
                 <div class="card">
                     <header class="card-header">
                         <p class="card-header-title">
-                            Programming Languages
+                            Achievements
                         </p>
                     </header>
                     <div class="card-content">
@@ -77,6 +77,6 @@ export default {
 </script>
 <style scoped>
 .container {
-    min-height: 80vh;
+    min-height: 60vh;
 }
 </style>

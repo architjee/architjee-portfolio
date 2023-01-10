@@ -53,6 +53,7 @@ export default {
 </script>
 <style scoped>
 .container{
+    top: 200px;
     min-height: 80vh;
 }
 
